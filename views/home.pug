@@ -1,0 +1,50 @@
+extends base.pug
+
+block scripts   
+    //- script(src='/static/index.js')
+    script
+      include ../static/index.js
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+    section#introSection
+        div Welcome to
+        div Neel's Sports Complex
+        div.small Freedom to Play
+
+    section#gameSection
+        h2 Our Games
+        div.card 
+            h5 Cricket
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/1.png")
+            div.card-content 
+                p This is about cricket Lorem ipsum dolor sit amet consectetur adipisicing.
+
+        div.card 
+            h5 Football
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/2.png")
+            div.card-content 
+                p This is about football Lorem ipsum dolor sit amet consectetur.
+
+        div.card 
+            h5 Basketball
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/3.png")
+            div.card-content 
+                p This is about basketball Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+    section#sponsorsSection
+        h2 Our Sponsors 
+        div#sponsors 
+            img(src="/static/img/apple.png" alt="Sponsors Image", class="spImage")
+            img(src="/static/img/microsoft.png" alt="Sponsors Image", class="spImage")
+            img(src="/static/img/hp.png" alt="Sponsors Image", class="spImage")
+            img(src="/static/img/skype.png" alt="Sponsors Image", class="spImage")

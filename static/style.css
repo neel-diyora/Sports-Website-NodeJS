@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+}
+#logo img{
+    /* margin-left: -240px; */
+    height: 50px;
+    margin-top: -3px;
+}
+#logo div{
+    font-size: 8px;
+    height: 6px;
+    margin-top: 23px;
+    margin-left: -58px;
+    font-weight: bold;
+}
+#navbar{
+    background-color: #2a6592;
+    padding: 0px;
+    opacity: 0.7;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+#navbar li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 20px;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 1px 25px;
+    color: white;
+    font-size: 15px;
+}
+#navbar li a:hover{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    font-style: italic;
+}
+#search{
+    position: absolute;
+    right: 23px;
+    top: 14px;
+}
+#search input{
+    width: 150px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+#introSection{
+    padding-bottom: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: bottom / cover no-repeat url("/static/bg.jpg");
+    height: 300px;
+    background-color: red;
+    font-size: 35px;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    opacity: 0.9;
+}
+#introSection div{
+    font-family: 'Jacques Francois Shadow', cursive;
+}
+#gameSection{
+    width: 90%;
+    display: block;
+    margin: auto;
+    height: 300px;
+    background-color: white;
+}
+#gameSection h2{
+    margin-top: 11px;
+   text-align: center;
+   padding: 12px;
+}
+.card{
+    background-color: #fde8e8;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 26%;
+    margin: 16px 33px;
+    height: 185px;
+    display: inline-block;
+}
+.card h5{
+    text-align: center;
+    margin: 6px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-img{
+    height: 100px;
+    padding: 0 65px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding: 9px 3px;
+}
+.card-content p{
+    text-align: center;
+    font-size: 11px;
+}
+#sponsorsSection{
+    height: 200px;
+    background-color: #f9d6f8;
+}
+#sponsorsSection h2{
+   text-align: center;
+   padding: 12px;
+}
+#sponsors {
+    height: 120px;
+    max-width: 100%;
+    text-align: center;
+}
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+#footer{
+    height: 100px;
+    background-color: black;
+    color: white;
+    height: 60px;
+    text-align: center;
+}
+
+/*========= Social Link =========  */
+.fa {
+    padding: 9px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    margin: 6px;
+  }
+  Round Buttons
+  Tip: Add border-radius:50% to create round buttons, and reduce the width:
+  
+  Rounded Example
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }

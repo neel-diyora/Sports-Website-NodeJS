@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    margin: 30px 0px;
+}
+h2{
+    text-align: center;
+    margin: 12px;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.myInput{
+    width: 46%;
+    padding: 4px;
+    margin: 5px;
+    border: 1px solid blue;
+    outline: none;
+    border-radius: 5px;
+}
+.btn{
+    padding: 5px 15px;
+    margin: 3px;
+    border: 1.5px solid blue;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(50, 50, 209);
+    outline: none;
+}
+.btn:hover{
+    background-color: rgb(255, 34, 34);
+    border: 2px solid brown;
+}

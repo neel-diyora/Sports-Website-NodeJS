@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    title Neel Sports Complex
+    block scripts
+    block style
+  body
+    nav#navbar
+        ul
+            div#logo 
+                img(src="/static/img/logo.png")
+                div SPORTS
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/contact") Contact Us]
+
+            form#search  
+                input(type="text" name="name" placeholder="search")
+        
+    block content
+    
+    
